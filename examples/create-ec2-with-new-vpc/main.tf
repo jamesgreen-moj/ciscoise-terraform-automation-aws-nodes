@@ -17,6 +17,7 @@
 
 provider "aws" {
   region = var.aws_region
+  profile = "moj-network-operations-centre-preproduction-cli"
 }
 
 data "aws_caller_identity" "current" {}

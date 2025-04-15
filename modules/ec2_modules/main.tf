@@ -14,9 +14,10 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-provider "aws" {
-  region = var.aws_region
-}
+# provider "aws" {
+#   region = var.aws_region
+#   profile = "moj-network-operations-centre-preproduction-cli"
+# }
 
 locals {
   ise_username = local.ise_username_map[var.ise_version]
