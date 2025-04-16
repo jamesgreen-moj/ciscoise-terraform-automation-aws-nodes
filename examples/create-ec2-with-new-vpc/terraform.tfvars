@@ -19,8 +19,8 @@
 ################################################
 vpc_cidr             = "10.0.0.0/16"                # CIDR block for the VPC
 vpc_name             = "cisco_ise"                  # Name tag for the VPC
-aws_region           = "us-east-1"                  # Specify the AWS region
-availability_zones   = ["us-east-1a", "us-east-1b"] # List of availability zones
+aws_region           = "eu-west-2"                  # Specify the AWS region
+availability_zones   = ["eu-west-2a", "eu-west-2b"] # List of availability zones
 enable_dns_hostnames = true                         # Whether to enable DNS hostnames for instances in the VPC. Allowed values are 'true' and 'false'
 
 ######################################
