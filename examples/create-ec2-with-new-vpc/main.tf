@@ -24,7 +24,7 @@ data "aws_caller_identity" "current" {}
 
 locals {
   trigger_lambda_time = replace(timeadd(timestamp(), "2m"), "Z", "")
-  layer_arn           = "arn:aws:lambda:${var.aws_region}:${data.aws_caller_identity.current.account_id}:layer:CiscoISEPackageLayer:1"
+  layer_arn           = "arn:aws:lambda:${var.aws_region}:${data.aws_caller_identity.current.account_id}:layer:CiscoISEPackageLayer:33"
 }
 
 module "cisco_ise_vpc" {

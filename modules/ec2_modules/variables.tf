@@ -345,7 +345,7 @@ variable "key_pair_name" {
     Create/import a key pair in AWS now if you have not configured one already.
     Usage example:  ssh -i mykeypair.pem admin@myhostname.compute-1.amazonaws.com.
     NOTE: The username for ISE 3.1 is "admin" and for ISE 3.2+ is "iseadmin".
-  EOT  
+  EOT
   type        = string
 }
 

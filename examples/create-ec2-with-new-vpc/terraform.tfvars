@@ -175,7 +175,7 @@ ebs_encrypt = false # Choose true to enable EBS encryption
 enable_stickiness = true # Choose true to enable stickiness for the load balancer
 
 # Application Details
-ise_version       = "3.1"             # The version of Cisco ISE (3.1 or 3.2 or 3.3)
+ise_version       = "3.3"             # The version of Cisco ISE (3.1 or 3.2 or 3.3)
 password          = "C!sc0Ind1@"      # Set a password for GUI-based login to Cisco ISE. The password that you enter must comply with the Cisco ISE password policy. The password must contain 6 to 25 characters and include at least one numeral, one uppercase letter, and one lowercase letter. The password cannot be the same as the username or its reverse (iseadmin or nimdaesi), cisco, or ocsic. The allowed special characters are @~*!,+=_-.
 time_zone         = "UTC"             # Enter a timezone that is allowed by ISE nodes. For information on the supported timezone formats, refer to this documentation - https://www.cisco.com/c/en/us/td/docs/security/ise/3-3/cli_guide/b_ise_CLI_Reference_Guide_33/b_ise_CLIReferenceGuide_33_chapter_011.html?#wp2884933107
 ers_api           = "yes"             # Enable/disable ERS
@@ -186,4 +186,4 @@ primarynameserver = "169.254.169.253" # Enter the IP address of the primary name
 ntpserver         = "169.254.169.123" # Enter the IPv4 address or FQDN of the NTP server that must be used for synchronization.
 
 # DNS Domain Name
-dns_domain = "example.com" # Enter a domain name in correct syntax
+dns_domain = "pre-prod.network-access-control.service.justice.gov.uk" # Enter a domain name in correct syntax
